@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
 }
@@ -7,6 +8,30 @@ body{
     height: 100%;
 }
 .map{
-    height: 500px;
-    width: 800px;
+    height: 100vh;
+
+}
+.message{
+    z-index: 999;
+    position: relative;
+    top:5px;
+    right:5px;
+    width: 20%;
+    float: right;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-subtitle{
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-text{
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+video{
+  width:100%;
 }
